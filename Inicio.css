@@ -1,0 +1,46 @@
+﻿
+html,
+body {
+
+}
+
+.inicio1 {
+    width: 100px;
+    height: 100px;
+   margin-left: 177px;
+    margin-top: 62px;
+    background-image:url(media/circulo4.png);
+    background-size:auto;
+}
+
+.inicio2 {
+    width: 100px;
+    height: 100px;
+    background: #428bca;
+    margin-left: 409px;
+    margin-top: 0px;
+    position: relative;
+    background-image:url(media/circulo4.png);
+    border-image-repeat:unset;
+}
+
+.inicio3 {
+    width: 100px;
+    height: 100px;
+    margin-left: 409px;
+    margin-top: 0px;
+    position: relative;
+    background-image: url(media/circulo4.png);
+    border-image-repeat: unset;
+    background-repeat:no-repeat;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}

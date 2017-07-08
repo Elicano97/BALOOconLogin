@@ -1,0 +1,212 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="mstPrincipal.master.cs" Inherits="mstPrincipal" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 178px;
+            margin-bottom:0px;
+        }
+        .auto-style3 {
+            height: 16px;
+        }
+        .auto-style4 {
+            height: 92px;
+            margin-top: 0px;
+        }
+        .auto-style5 {
+            width: 100%;
+            height: 127px;
+        }
+        .auto-style6 {
+            width: 662px;
+        }
+        .auto-style7 {
+            width: 100%;
+            height: 106px;
+        }
+        .auto-style8 {
+            width: 267px;
+        }
+        .auto-style9 {
+            width: 299px;
+        }
+        .auto-style10 {
+            width: 198px;
+        }
+        .auto-style11 {
+            width: 267px;
+            height: 35px;
+        }
+        .auto-style12 {
+            width: 299px;
+            height: 35px;
+        }
+        .auto-style13 {
+            width: 198px;
+            height: 35px;
+        }
+        .auto-style15 {
+            width: 213px;
+            margin-left: 40px;
+        }
+        .auto-style16 {
+            width: 213px;
+        }
+        .auto-style17 {
+             height: 92px;
+            margin-top: 0px;
+        }
+        .auto-style18 {
+            width: 60px;
+            height: 49px;
+            margin-left: 136px;
+            margin-top: 7px;
+        }
+        .auto-style19 {
+            height: 92px;
+            margin-top: 0px;
+        }
+        .auto-style20 {
+            width: 70px;
+            height: 41px;
+            margin-left: 57px;
+            margin-top: 9px;
+        }
+        .auto-style21 {
+            width: 60px;
+            height: 40px;
+            margin-left: 0px;
+            margin-top: 11px;
+        }
+        .auto-style22 {
+            height: 95px;
+        }
+        .auto-style23 {
+            height: 97px;
+            width: 107px;
+        }
+        .auto-style24 {
+            height: 98px;
+        }
+        .auto-style25 {
+            width: 53px;
+            height: 45px;
+            margin-left: 24px;
+            margin-top: 24px;
+        }
+        .auto-style26 {
+            width: 101px;
+        }
+        .auto-style27 {
+            width: 43px;
+            height: 47px;
+            margin-left: 38px;
+            margin-top: 20px;
+        }
+        .auto-style28 {
+            height: 95px;
+            width: 121px;
+        }
+        .auto-style29 {
+            width: 121px;
+        }
+        .auto-style30 {
+            width: 61px;
+            height: 57px;
+            margin-left: 24px;
+            margin-top: 19px;
+        }
+        .auto-style31 {
+            width: 105px;
+        }
+        .auto-style32 {
+            width: 50px;
+            height: 55px;
+            margin-left: 41px;
+            margin-top: 21px;
+        }
+        .auto-style33 {
+            height: 233px;
+            margin-bottom:0px;
+        }
+    </style>
+</head>
+<body style="height: 229px">
+    <form id="form1" runat="server" class="auto-style33">
+        <div>
+        <table class="auto-style1">
+            <tr>
+                <td style="background-image: none; font-family: 'Bauhaus 93'; font-size: 70px; font-weight: 900; font-style: normal; font-variant: normal; text-transform: capitalize; color: #000000; background-color: #999999;" class="auto-style4">
+                    <table class="auto-style5">
+                        <tr>
+                            <td class="auto-style6">&nbsp;BALOO</td>
+                            <td class="auto-style15" style="font-size: xx-small">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <div class="auto-style17">
+                                    &nbsp;<a href="Splash.aspx"><img alt="home" class="auto-style18" src="media/home.png" /></a></div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+                            <td class="auto-style16" style="font-size: xx-small">&nbsp;<div class="auto-style19">
+                                <a href="frmSignin.aspx"><img alt="user" class="auto-style20" src="media/user.png" /></a></div>
+                            </td>
+                            <td style="font-size: xx-small">&nbsp;<div class="auto-style4">
+                                <a href="frmForgotPassword.aspx"><img alt="settings" class="auto-style21" src="media/settings.png" /></a></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+    <div style="background-color: #FFFFFF">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-image: none; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: x-large; font-weight: lighter; font-style: italic; color: #000066; background-color: #999999;">
+                    <table class="auto-style7">
+                        <tr>
+                            <td class="auto-style11" style="font-family: Ubuntu; font-size: 25px; font-weight: 100; color: #FFFFFF; font-style: normal; font-variant: normal;"></td>
+                            <td class="auto-style12" style="font-family: Ubuntu; font-size: 25px; font-weight: 100; color: #FFFFFF; font-style: normal; font-variant: normal; text-decoration: underline;">Contactenos</td>
+                            <td class="auto-style13" style="font-family: Ubuntu; font-size: 25px; font-weight: 100; color: #FFFFFF; font-style: normal; font-variant: normal; text-decoration: underline;">Acerca de</td>
+                            <td class="auto-style26" rowspan="2" style="font-family: Ubuntu; font-size: 25px; font-weight: 100; color: #FFFFFF; font-style: normal; font-variant: normal; text-decoration: underline;">
+                                <div class="auto-style22">
+                                    <img alt="html" class="auto-style25" src="media/030-html-5.png" />
+                                </div>
+                            </td>
+                            <td class="auto-style29" rowspan="2" style="font-family: Ubuntu; font-size: 25px; font-weight: 100; color: #FFFFFF; font-style: normal; font-variant: normal; text-decoration: underline;">
+                                <div class="auto-style28">
+                                    <img alt="facebook" class="auto-style27" src="media/036-facebook.png" /></div>
+                            </td>
+                            <td class="auto-style31" rowspan="2" style="font-family: Ubuntu; font-size: 25px; font-weight: 100; color: #FFFFFF; font-style: normal; font-variant: normal; text-decoration: underline;">
+                                <div class="auto-style23">
+                                    <img alt="youtube" class="auto-style30" src="media/001-youtube.png" /></div>
+                            </td>
+                            <td rowspan="2" style="font-family: Ubuntu; font-size: 25px; font-weight: 100; color: #FFFFFF; font-style: normal; font-variant: normal; text-decoration: underline;">
+                                <div class="auto-style24">
+                                    <img alt="ws" class="auto-style32" src="media/005-whatsapp.png" /></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style8" style="font-family: Ubuntu; font-size: 25px; font-weight: 100; color: #FFFFFF; font-style: normal; font-variant: normal;">2017 Baloo<br />
+                                Derechos Reservados</td>
+                            <td class="auto-style9" style="font-family: Ubuntu; font-size: 25px; font-weight: 100; color: #FFFFFF; font-style: normal; font-variant: normal;"><a href="mailto:adrian0897@outlook.es">adrian0897@outlook.es</a><br />
+                            </td>
+                            <td class="auto-style10" style="font-family: Ubuntu; font-size: 25px; font-weight: 100; color: #FFFFFF; font-style: normal; font-variant: normal;">Baloo Aspp</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        </div>
+    </form>
+</body>
+</html>
